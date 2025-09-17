@@ -20,4 +20,4 @@ EXPOSE 3333
 ENV NODE_ENV=production
 
 # Run database migrations and start the server
-CMD ["sh", "-c", "bun run prisma db push && bun run src/index.ts"]
+CMD ["sh", "-c", "bun run src/index.ts"]
